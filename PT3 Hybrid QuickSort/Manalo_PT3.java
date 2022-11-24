@@ -11,7 +11,7 @@ public class Manalo_PT3 {
     private static final int N = 10000;
  
     // Total number of sorting runs
-    private static final int NUM = 10000;
+    private static final int NUM = 10;
     public static void main(String[] args)
     {
         int[] arr = new int[N];
@@ -45,7 +45,7 @@ public class Manalo_PT3 {
             t2 += (end - begin);
         }
         System.out.println("\n\t------------------------------------------------------------------");
-		System.out.println("\t\t\tPT3: HYBRID QUICKSORT IMPLEMENTATION");
+	System.out.println("\t\t\tPT3: HYBRID QUICKSORT IMPLEMENTATION");
         System.out.println("\t------------------------------------------------------------------");
         System.out.println("\n\tThe average time taken by the non-optimized Quicksort: " + t1/NUM + "ns");
         System.out.println("\tThe average time taken by the optimized Quicksort: " + t2/NUM + "ns\n");
