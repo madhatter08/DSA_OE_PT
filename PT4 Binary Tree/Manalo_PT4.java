@@ -23,7 +23,7 @@ class Node {
     }
 }
 
-public class PT4_BinaryTree {
+public class Manalo_PT4 {
 	public static void main(String[] args) {
 		Node staticData = staticData();
 		Scanner choice = new Scanner(System.in);
